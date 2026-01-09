@@ -6,6 +6,13 @@
 
 ---
 <div align="center">
+  <p><strong>🌐InternHub Ai Link </strong></p>
+</div>
+
+[https://github.com/user-attachments/assets/c8d2b2bc-3796-44c3-a868-96e1a55c55bb](https://internh.streamlit.app/)
+
+---
+<div align="center">
   <p><strong>🎬 Demo Video </strong></p>
 </div>
 
