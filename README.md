@@ -5,7 +5,12 @@
 </div>
 
 ---
+## 🎬 Demo Video
 
+https://github.com/user-attachments/assets/c8d2b2bc-3796-44c3-a868-96e1a55c55bb
+
+---
+---
 ## 🚀 About The Project
 
 **InternHub AI Evaluator** is a cutting-edge Streamlit application designed to bridge the gap between students and internships. Using advanced Large Language Models (LLMs) via OpenRouter, it intelligently analyzes student resumes and internship job descriptions to provide a comprehensive match analysis.
@@ -90,3 +95,22 @@ e:\internHub\
 └── utils/              # Helper Utilities
     └── resume_reader.py
 ```
+Here’s a clean, professional version you can **directly add to your README**, written in clear product-quality language:
+
+---
+
+## ⚠️ Note on LLM API Availability
+
+In rare cases, you may experience errors during usage due to **LLM API traffic, rate limits, or temporary service issues** from the model provider. This is expected behavior when using free or shared-tier APIs.
+
+If you encounter any such issue, please **refer to the demo video linked in the README** to see the full working flow of the application.
+
+🔒 **Important Notes**:
+
+* These issues can be fully resolved by using a **paid, high-throughput LLM API plan**, which offers better reliability and speed.
+* All API keys are securely managed using **Streamlit Secrets**, ensuring that sensitive credentials are never exposed in the codebase.
+
+This design keeps the application **secure, scalable, and production-ready** when deployed with a premium API.
+
+---
+
