@@ -242,4 +242,4 @@ with col2:
                 st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
-st.markdown('<div class="footer">Powered by InternHub AI | OpenRouter</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Powered by InternHub AI</div>', unsafe_allow_html=True)
