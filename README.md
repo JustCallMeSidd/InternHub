@@ -9,7 +9,7 @@
   <p><strong>🌐InternHub Ai Link </strong></p>
 </div>
 
-[https://github.com/user-attachments/assets/InternHub Ai](https://internh.streamlit.app/)
+[InternHub Ai](https://internh.streamlit.app/)
 
 ---
 <div align="center">
