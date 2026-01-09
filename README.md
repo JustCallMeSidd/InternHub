@@ -6,14 +6,13 @@
 
 ---
 <div align="center">
-  <p><strong>🌐 InternHub AI Link</strong></p>
+  <p><strong>🌐 InternHub AI Link 👇🏻 </strong></p>
   <h1>
     <a href="https://internh.streamlit.app/" target="_blank">
       InternHub AI
     </a>
   </h1>
 </div>
->
 
 ---
 <div align="center">
