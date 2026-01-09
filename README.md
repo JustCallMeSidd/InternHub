@@ -1,10 +1,13 @@
-## 👤 Author & Project Details
-
-* **Name:** Siddharth Gupta
-* **Enrollment Number:** E22CSEU0234
-* **Batch:** 08
-* **University:** Bennett University
-* **Role:** AI Engineering Intern
+<div style="border:1px solid #e0e0e0; border-radius:10px; padding:16px; max-width:500px;">
+  <h2>👤 Author & Project Details</h2>
+  <ul>
+    <li><strong>Name:</strong> Siddharth Gupta</li>
+    <li><strong>Enrollment Number:</strong> E22CSEU0234</li>
+    <li><strong>Batch:</strong> 08</li>
+    <li><strong>University:</strong> Bennett University</li>
+    <li><strong>Role:</strong> AI Engineering Intern</li>
+  </ul>
+</div>
 
 ---
 
@@ -116,11 +119,6 @@ e:\internHub\
 └── utils/              # Helper Utilities
     └── resume_reader.py
 ```
-Perfect 👍
-Here are **clean, professional, submission-ready sections** you can **directly paste into your `README.md`**.
-(Aligned with university / evaluator expectations.)
-
----
 
 ## ⚠️ Assumptions & Limitations
 
