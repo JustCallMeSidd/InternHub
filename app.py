@@ -11,7 +11,7 @@ st.set_page_config(page_title="InternHub AI", page_icon="favicon.png", layout="w
 
 
 
-# Custom CSS for Premium Look
+# CSS part
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
@@ -96,7 +96,6 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Custom Gauge with improved design
 def render_ats_gauge(score):
     color = "#ef4444" if score < 40 else "#f59e0b" if score < 70 else "#10b981"
     
@@ -152,7 +151,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 st.markdown('<p class="sub-header">AI-Powered Resume Analysis & Internship Matching</p>', unsafe_allow_html=True)
 
-# Internship Details Section
+# internship details
 st.markdown('<div class="card">', unsafe_allow_html=True)
 st.markdown('<div class="section-title">📋 Internship Job Description</div>', unsafe_allow_html=True)
 job_description = st.text_area(
@@ -166,7 +165,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 
 st.divider()
 
-# Main Content
+# main content
 col1, col2 = st.columns(2)
 
 with col1:
@@ -174,7 +173,7 @@ with col1:
     st.markdown('<div class="section-title">👤 Student Profile</div>', unsafe_allow_html=True)
     input_method = st.radio("Choose Input Method", ["Manual Input", "Upload Resume"], horizontal=True, label_visibility="collapsed")
     
-    st.write("") # Spacer
+    st.write("")
     
     skills = ""
     interests = ""
@@ -193,7 +192,7 @@ with col1:
                 else:
                     resume_text = read_txt(uploaded_file)
                 
-                # Parse resume with LLM
+                
                 messages = [
                     {"role": "system", "content": RESUME_PARSER_SYSTEM_PROMPT},
                     {"role": "user", "content": get_resume_parser_prompt(resume_text)}
@@ -233,7 +232,7 @@ with col2:
                 
                 analysis_result = call_llm(messages)
                 
-                # Extract score and render gauge
+                # extract score and show
                 score = extract_score(analysis_result)
                 if score is not None:
                     render_ats_gauge(score)
