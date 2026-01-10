@@ -16,7 +16,9 @@
   <h1>InternHub AI</h1>
   <p><strong>A Premium AI-Powered Internship Matching Platform</strong></p>
 </div> 
+
 ---
+
 <div align="center">
   <p><strong>🌐 InternHub AI Streamlit web-app Link 👇🏻 </strong></p>
   <p><strong>Live Deployment Link Click to Check 👇🏻</strong></p>
